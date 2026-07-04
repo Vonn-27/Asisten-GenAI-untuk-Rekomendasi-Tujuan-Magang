@@ -1,0 +1,577 @@
+2026-06-21 12:32:13,796 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-06-21 12:32:13,796 - INFO - [33mPress CTRL+C to quit[0m
+2026-06-21 12:32:13,798 - INFO -  * Restarting with stat
+2026-06-21 12:32:14,670 - WARNING -  * Debugger is active!
+2026-06-21 12:32:14,672 - INFO -  * Debugger PIN: 618-853-067
+2026-06-21 12:32:19,684 - INFO - Session cleared, new session started
+2026-06-21 12:32:19,688 - INFO - 127.0.0.1 - - [21/Jun/2026 12:32:19] "GET / HTTP/1.1" 200 -
+2026-06-21 12:34:46,592 - INFO - User input: 'Saya mahasiswa yang jago Microsoft Excel (Macro & VBA) dan Tableau. 
+Rekomendasikan tempat magang di...'
+2026-06-21 12:34:54,215 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-06-21 12:35:04,917 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-06-21 12:35:04,918 - INFO - Extracted params: query='Data Analyst OR Business Analyst OR Supply Chain Analyst', city='Jakarta', remote=False
+2026-06-21 12:35:04,918 - INFO - Calling API with params: {'title_filter': 'Data Analyst OR Business Analyst OR Supply Chain Analyst', 'location_filter': 'Jakarta', 'remote': 'false', 'include_ai': 'true', 'limit': 10}
+2026-06-21 12:35:06,857 - INFO - API returned 4 jobs
+2026-06-21 12:35:06,858 - INFO - Saved 4 jobs to session
+2026-06-21 12:35:23,799 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-06-21 12:35:23,799 - INFO - Generated 2 recommendations
+2026-06-21 12:35:23,809 - INFO - 127.0.0.1 - - [21/Jun/2026 12:35:23] "POST /chat HTTP/1.1" 200 -
+2026-06-21 12:39:55,637 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-06-21 12:39:55,637 - INFO - [33mPress CTRL+C to quit[0m
+2026-06-21 12:39:55,638 - INFO -  * Restarting with stat
+2026-06-21 12:39:56,426 - WARNING -  * Debugger is active!
+2026-06-21 12:39:56,428 - INFO -  * Debugger PIN: 618-853-067
+2026-06-21 12:40:01,364 - INFO - Session cleared, new session started
+2026-06-21 12:40:01,367 - INFO - 127.0.0.1 - - [21/Jun/2026 12:40:01] "GET / HTTP/1.1" 200 -
+2026-06-21 12:40:34,792 - INFO - User input: 'Saya mahasiswa Marketing, mahir Instagram, copywriting, dan content 
+planning. Mau magang di bidang ...'
+2026-06-21 12:40:42,380 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-06-21 12:40:51,921 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-06-21 12:40:51,921 - INFO - Extracted params: query='Content Creator OR Social Media Manager OR Digital Content Specialist', city='Jakarta', remote=False
+2026-06-21 12:40:51,922 - INFO - Calling API with params: {'title_filter': 'Content Creator OR Social Media Manager OR Digital Content Specialist', 'location_filter': 'Jakarta', 'remote': 'false', 'include_ai': 'true', 'limit': 10}
+2026-06-21 12:40:53,344 - INFO - API returned 1 jobs
+2026-06-21 12:40:53,345 - INFO - Saved 1 jobs to session
+2026-06-21 12:41:02,936 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-06-21 12:41:02,936 - INFO - Generated 1 recommendations
+2026-06-21 12:41:02,946 - INFO - 127.0.0.1 - - [21/Jun/2026 12:41:02] "POST /chat HTTP/1.1" 200 -
+2026-06-21 12:41:42,426 - INFO - Session cleared, new session started
+2026-06-21 12:41:42,432 - INFO - 127.0.0.1 - - [21/Jun/2026 12:41:42] "GET / HTTP/1.1" 200 -
+2026-06-21 12:41:59,758 - INFO - User input: 'Saya mahasiswa Teknik Lingkungan, tertarik magang di perusahaan FMCG 
+di Jakarta...'
+2026-06-21 12:42:01,681 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-06-21 12:42:11,760 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-06-21 12:42:11,761 - INFO - Extracted params: query='Environmental OR Sustainability OR HSE OR EHS OR Waste Management', city='Jakarta', remote=False
+2026-06-21 12:42:11,761 - INFO - Calling API with params: {'title_filter': 'Environmental OR Sustainability OR HSE OR EHS OR Waste Management', 'location_filter': 'Jakarta', 'remote': 'false', 'include_ai': 'true', 'limit': 10}
+2026-06-21 12:42:13,075 - INFO - API returned 1 jobs
+2026-06-21 12:42:13,076 - INFO - Saved 1 jobs to session
+2026-06-21 12:42:25,400 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-06-21 12:42:25,401 - INFO - Generated 1 recommendations
+2026-06-21 12:42:25,405 - INFO - 127.0.0.1 - - [21/Jun/2026 12:42:25] "POST /chat HTTP/1.1" 200 -
+2026-06-21 12:42:34,820 - INFO - Session cleared, new session started
+2026-06-21 12:42:34,823 - INFO - 127.0.0.1 - - [21/Jun/2026 12:42:34] "GET / HTTP/1.1" 200 -
+2026-06-21 12:42:58,852 - INFO - User input: 'magang utk anak IT di jogja yg WFH dong...'
+2026-06-21 12:43:00,744 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-06-21 12:43:09,066 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-06-21 12:43:09,067 - INFO - Extracted params: query='Software Developer OR Programmer OR Web Developer', city='Yogyakarta', remote=True
+2026-06-21 12:43:09,067 - INFO - Calling API with params: {'title_filter': 'Software Developer OR Programmer OR Web Developer', 'location_filter': 'Yogyakarta', 'remote': 'true', 'include_ai': 'true', 'limit': 10}
+2026-06-21 12:43:10,203 - INFO - API returned 0 jobs
+2026-06-21 12:43:10,204 - INFO - No jobs found for query
+2026-06-21 12:43:10,205 - INFO - 127.0.0.1 - - [21/Jun/2026 12:43:10] "POST /chat HTTP/1.1" 200 -
+2026-06-21 12:43:35,328 - INFO - User input: 'Saya mahasiswa Akuntansi semester 6, mau magang di DIY sebagai 
+junior accountant...'
+2026-06-21 12:43:37,243 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-06-21 12:43:48,107 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-06-21 12:43:48,108 - INFO - Extracted params: query='Junior Accountant OR Accounting Assistant OR Akuntansi Junior', city='Yogyakarta', remote=False
+2026-06-21 12:43:48,108 - INFO - Calling API with params: {'title_filter': 'Junior Accountant OR Accounting Assistant OR Akuntansi Junior', 'location_filter': 'Yogyakarta', 'remote': 'false', 'include_ai': 'true', 'limit': 10}
+2026-06-21 12:43:51,217 - INFO - API returned 0 jobs
+2026-06-21 12:43:51,218 - INFO - No jobs found for query
+2026-06-21 12:43:51,219 - INFO - 127.0.0.1 - - [21/Jun/2026 12:43:51] "POST /chat HTTP/1.1" 200 -
+2026-06-21 12:44:04,891 - INFO - Session cleared, new session started
+2026-06-21 12:44:04,892 - INFO - 127.0.0.1 - - [21/Jun/2026 12:44:04] "GET / HTTP/1.1" 200 -
+2026-06-21 12:44:15,252 - INFO - User input: 'saya mahasiswa di Bandung mau magang front end developer di JKT...'
+2026-06-21 12:44:16,971 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-06-21 12:44:25,817 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-06-21 12:44:25,818 - INFO - Extracted params: query='Front End Developer OR Web Developer OR Developer Web', city='Jakarta', remote=False
+2026-06-21 12:44:25,818 - INFO - Calling API with params: {'title_filter': 'Front End Developer OR Web Developer OR Developer Web', 'location_filter': 'Jakarta', 'remote': 'false', 'include_ai': 'true', 'limit': 10}
+2026-06-21 12:44:26,957 - INFO - API returned 0 jobs
+2026-06-21 12:44:26,958 - INFO - No jobs found for query
+2026-06-21 12:44:26,958 - INFO - 127.0.0.1 - - [21/Jun/2026 12:44:26] "POST /chat HTTP/1.1" 200 -
+2026-06-21 12:45:19,311 - INFO - Session cleared, new session started
+2026-06-21 12:45:19,312 - INFO - 127.0.0.1 - - [21/Jun/2026 12:45:19] "GET / HTTP/1.1" 200 -
+2026-06-21 12:45:21,583 - INFO - User input: 'Saya mahasiswa Teknik Informatika, menguasai Python dan SQL. 
+Mau magang sebagai Data Analyst di Jak...'
+2026-06-21 12:45:23,490 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-06-21 12:45:34,595 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-06-21 12:45:34,596 - INFO - Extracted params: query='Data Analyst OR Business Intelligence Analyst OR Analytics Specialist', city='Jakarta', remote=False
+2026-06-21 12:45:34,596 - INFO - Calling API with params: {'title_filter': 'Data Analyst OR Business Intelligence Analyst OR Analytics Specialist', 'location_filter': 'Jakarta', 'remote': 'false', 'include_ai': 'true', 'limit': 10}
+2026-06-21 12:45:40,031 - INFO - API returned 4 jobs
+2026-06-21 12:45:40,032 - INFO - Saved 4 jobs to session
+2026-06-21 12:46:06,740 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-06-21 12:46:06,741 - INFO - Generated 4 recommendations
+2026-06-21 12:46:06,745 - INFO - 127.0.0.1 - - [21/Jun/2026 12:46:06] "POST /chat HTTP/1.1" 200 -
+2026-06-21 12:46:20,295 - INFO - Session cleared, new session started
+2026-06-21 12:46:20,297 - INFO - 127.0.0.1 - - [21/Jun/2026 12:46:20] "GET / HTTP/1.1" 200 -
+2026-06-21 12:46:22,861 - INFO - User input: 'Saya mahasiswa Marketing, mau magang Digital Marketing di Jakarta...'
+2026-06-21 12:46:24,763 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-06-21 12:46:33,817 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-06-21 12:46:33,817 - INFO - Extracted params: query='Digital Marketer OR Digital Marketing Specialist OR Social Media Officer OR Marketing Executive OR Online Marketing', city='Jakarta', remote=False
+2026-06-21 12:46:33,817 - INFO - Calling API with params: {'title_filter': 'Digital Marketer OR Digital Marketing Specialist OR Social Media Officer OR Marketing Executive OR Online Marketing', 'location_filter': 'Jakarta', 'remote': 'false', 'include_ai': 'true', 'limit': 10}
+2026-06-21 12:46:35,079 - INFO - API returned 0 jobs
+2026-06-21 12:46:35,080 - INFO - No jobs found for query
+2026-06-21 12:46:35,080 - INFO - 127.0.0.1 - - [21/Jun/2026 12:46:35] "POST /chat HTTP/1.1" 200 -
+2026-06-21 12:47:16,054 - INFO - Session cleared, new session started
+2026-06-21 12:47:16,055 - INFO - 127.0.0.1 - - [21/Jun/2026 12:47:16] "GET / HTTP/1.1" 200 -
+2026-06-21 12:47:20,035 - INFO - User input: 'Saya mahasiswa Teknik Informatika, menguasai Python dan SQL. 
+Mau magang sebagai Data Analyst di Jak...'
+2026-06-21 12:47:20,402 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-06-21 12:47:25,331 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-06-21 12:47:25,331 - INFO - Extracted params: query='Data Analyst OR Business Intelligence Analyst OR Analytics Specialist', city='Jakarta', remote=False
+2026-06-21 12:47:25,331 - INFO - Calling API with params: {'title_filter': 'Data Analyst OR Business Intelligence Analyst OR Analytics Specialist', 'location_filter': 'Jakarta', 'remote': 'false', 'include_ai': 'true', 'limit': 10}
+2026-06-21 12:47:27,682 - INFO - API returned 4 jobs
+2026-06-21 12:47:27,683 - INFO - Saved 4 jobs to session
+2026-06-21 12:47:51,732 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-06-21 12:47:51,732 - INFO - Generated 4 recommendations
+2026-06-21 12:47:51,736 - INFO - 127.0.0.1 - - [21/Jun/2026 12:47:51] "POST /chat HTTP/1.1" 200 -
+2026-06-21 12:48:00,684 - INFO - User input: 'Dari rekomendasi tadi, mana yang paling cocok untuk pemula?...'
+2026-06-21 12:48:02,584 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-06-21 12:48:02,586 - INFO - CHAT_BIASA: using 4 cached jobs
+2026-06-21 12:49:09,644 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-06-21 12:49:09,653 - INFO - 127.0.0.1 - - [21/Jun/2026 12:49:09] "POST /chat HTTP/1.1" 200 -
+2026-06-21 12:50:43,089 - INFO - User input: 'terima kasih...'
+2026-06-21 12:50:45,027 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-06-21 12:50:45,030 - INFO - CHAT_BIASA: using 4 cached jobs
+2026-06-21 12:51:58,391 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-06-21 12:51:58,393 - INFO - 127.0.0.1 - - [21/Jun/2026 12:51:58] "POST /chat HTTP/1.1" 200 -
+2026-06-21 12:52:22,011 - INFO - Session cleared, new session started
+2026-06-21 12:52:22,013 - INFO - 127.0.0.1 - - [21/Jun/2026 12:52:22] "GET / HTTP/1.1" 200 -
+2026-06-21 12:52:24,411 - INFO - User input: 'halo...'
+2026-06-21 12:52:26,388 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-06-21 12:52:26,391 - INFO - CHAT_BIASA: using 0 cached jobs
+2026-06-21 12:52:28,927 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-06-21 12:52:28,927 - INFO - 127.0.0.1 - - [21/Jun/2026 12:52:28] "POST /chat HTTP/1.1" 200 -
+2026-06-21 12:52:35,229 - INFO - Session cleared, new session started
+2026-06-21 12:52:35,229 - INFO - 127.0.0.1 - - [21/Jun/2026 12:52:35] "GET / HTTP/1.1" 200 -
+2026-06-21 20:32:28,935 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-06-21 20:32:28,936 - INFO - [33mPress CTRL+C to quit[0m
+2026-06-21 20:32:28,937 - INFO -  * Restarting with stat
+2026-06-21 20:32:29,760 - WARNING -  * Debugger is active!
+2026-06-21 20:32:29,763 - INFO -  * Debugger PIN: 889-564-238
+2026-06-21 20:32:32,502 - INFO - Session cleared, new session started
+2026-06-21 20:32:32,532 - INFO - 127.0.0.1 - - [21/Jun/2026 20:32:32] "GET / HTTP/1.1" 200 -
+2026-06-21 20:35:08,232 - INFO - Session cleared, new session started
+2026-06-21 20:35:08,233 - INFO - 127.0.0.1 - - [21/Jun/2026 20:35:08] "GET / HTTP/1.1" 200 -
+2026-06-21 20:35:08,788 - INFO - Session cleared, new session started
+2026-06-21 20:35:08,788 - INFO - 127.0.0.1 - - [21/Jun/2026 20:35:08] "GET / HTTP/1.1" 200 -
+2026-06-21 20:35:08,890 - INFO - 127.0.0.1 - - [21/Jun/2026 20:35:08] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-06-21 20:35:09,501 - INFO - 127.0.0.1 - - [21/Jun/2026 20:35:09] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-06-21 20:35:20,868 - INFO - User input: 'Saya mahasiswa yang jago Microsoft Excel (Macro & VBA) dan Tableau. Rekomendasikan tempat magang di ...'
+2026-06-21 20:35:32,412 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-06-21 20:35:36,713 - INFO - Session cleared, new session started
+2026-06-21 20:35:36,713 - INFO - 127.0.0.1 - - [21/Jun/2026 20:35:36] "GET / HTTP/1.1" 200 -
+2026-06-21 20:35:37,618 - INFO - 127.0.0.1 - - [21/Jun/2026 20:35:37] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-06-21 20:35:42,610 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-06-21 20:35:42,611 - INFO - Extracted params: query='Data Analyst OR Business Analyst OR Supply Chain Analyst', city='Jakarta', remote=False
+2026-06-21 20:35:42,611 - INFO - Calling API with params: {'title_filter': 'Data Analyst OR Business Analyst OR Supply Chain Analyst', 'location_filter': 'Jakarta', 'remote': 'false', 'include_ai': 'true', 'limit': 10}
+2026-06-21 20:35:44,319 - INFO - API returned 4 jobs
+2026-06-21 20:35:44,321 - INFO - Saved 4 jobs to session
+2026-06-21 20:36:05,563 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-06-21 20:36:05,564 - INFO - Generated 3 recommendations
+2026-06-21 20:36:05,577 - INFO - 127.0.0.1 - - [21/Jun/2026 20:36:05] "POST /chat HTTP/1.1" 200 -
+2026-06-21 20:38:36,608 - INFO - Session cleared, new session started
+2026-06-21 20:38:36,609 - INFO - 127.0.0.1 - - [21/Jun/2026 20:38:36] "GET / HTTP/1.1" 200 -
+2026-06-21 20:38:37,291 - INFO - 127.0.0.1 - - [21/Jun/2026 20:38:37] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-06-21 20:39:07,116 - INFO - User input: 'halo...'
+2026-06-21 20:39:08,834 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-06-21 20:39:08,837 - INFO - CHAT_BIASA: using 0 cached jobs
+2026-06-21 20:39:11,191 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-06-21 20:39:11,191 - INFO - 127.0.0.1 - - [21/Jun/2026 20:39:11] "POST /chat HTTP/1.1" 200 -
+2026-06-21 20:40:25,790 - INFO - User input: 'aku memiliki profesi di bidang teknik elektro, rekomendasikan pekerjaan yang ada di yogyakarta...'
+2026-06-21 20:40:28,260 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-06-21 20:40:38,397 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-06-21 20:40:38,398 - INFO - Extracted params: query='Elektro Engineer OR Electrical Technician OR R&D Engineer', city='Yogyakarta', remote=False
+2026-06-21 20:40:38,398 - INFO - Calling API with params: {'title_filter': 'Elektro Engineer OR Electrical Technician OR R&D Engineer', 'location_filter': 'Yogyakarta', 'remote': 'false', 'include_ai': 'true', 'limit': 10}
+2026-06-21 20:40:40,687 - INFO - API returned 0 jobs
+2026-06-21 20:40:40,688 - INFO - No jobs found for query
+2026-06-21 20:40:40,689 - INFO - 127.0.0.1 - - [21/Jun/2026 20:40:40] "POST /chat HTTP/1.1" 200 -
+2026-06-21 20:41:31,689 - INFO - Session cleared, new session started
+2026-06-21 20:41:31,690 - INFO - 127.0.0.1 - - [21/Jun/2026 20:41:31] "GET / HTTP/1.1" 200 -
+2026-06-21 20:41:34,380 - INFO - User input: 'holaa...'
+2026-06-21 20:41:36,058 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-06-21 20:41:36,060 - INFO - CHAT_BIASA: using 0 cached jobs
+2026-06-21 20:41:38,130 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-06-21 20:41:38,131 - INFO - 127.0.0.1 - - [21/Jun/2026 20:41:38] "POST /chat HTTP/1.1" 200 -
+2026-06-21 20:41:45,071 - INFO - User input: 'aku memiliki profesi di bidang teknik elektro, rekomendasikan pekerjaan yang ada di indonesia...'
+2026-06-21 20:41:46,500 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-06-21 20:41:55,666 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-06-21 20:41:55,666 - INFO - Extracted params: query='Elektro Engineer OR Electrical Technician OR Teknisi Elektrik', city='None', remote=False
+2026-06-21 20:41:55,666 - INFO - Calling API with params: {'title_filter': 'Elektro Engineer OR Electrical Technician OR Teknisi Elektrik', 'remote': 'false', 'include_ai': 'true', 'limit': 10}
+2026-06-21 20:41:59,099 - INFO - API returned 10 jobs
+2026-06-21 20:41:59,100 - INFO - Saved 10 jobs to session
+2026-06-21 20:42:32,860 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-06-21 20:42:32,861 - INFO - Generated 4 recommendations
+2026-06-21 20:42:32,874 - INFO - 127.0.0.1 - - [21/Jun/2026 20:42:32] "POST /chat HTTP/1.1" 200 -
+2026-06-21 20:44:03,860 - INFO - Session cleared, new session started
+2026-06-21 20:44:03,860 - INFO - 127.0.0.1 - - [21/Jun/2026 20:44:03] "GET / HTTP/1.1" 200 -
+2026-06-21 20:44:19,506 - INFO - 127.0.0.1 - - [21/Jun/2026 20:44:19] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-06-21 20:46:39,681 - INFO - User input: 'Saya mahasiswa teknik kimia. Saya ahli dalam Termodinamika. Tolong rekomendasikan tempat magang di S...'
+2026-06-21 20:46:41,556 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-06-21 20:46:51,340 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-06-21 20:46:51,341 - INFO - Extracted params: query='Termodinamika OR R&D OR Research Scientist OR Process Engineer', city='Surabaya', remote=False
+2026-06-21 20:46:51,341 - INFO - Calling API with params: {'title_filter': 'Termodinamika OR R&D OR Research Scientist OR Process Engineer', 'location_filter': 'Surabaya', 'remote': 'false', 'include_ai': 'true', 'limit': 10}
+2026-06-21 20:46:52,804 - INFO - API returned 0 jobs
+2026-06-21 20:46:52,805 - INFO - No jobs found for query
+2026-06-21 20:46:52,805 - INFO - 127.0.0.1 - - [21/Jun/2026 20:46:52] "POST /chat HTTP/1.1" 200 -
+2026-06-21 20:47:18,680 - INFO - User input: 'Saya mahasiswa teknik kimia. Saya ahli dalam Termodinamika. Tolong rekomendasikan tempat magang di J...'
+2026-06-21 20:47:20,133 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-06-21 20:47:28,472 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-06-21 20:47:28,472 - INFO - Extracted params: query='Process Engineer OR Research and Development Engineer OR Thermodynamic Specialist', city='Jakarta', remote=False
+2026-06-21 20:47:28,472 - INFO - Calling API with params: {'title_filter': 'Process Engineer OR Research and Development Engineer OR Thermodynamic Specialist', 'location_filter': 'Jakarta', 'remote': 'false', 'include_ai': 'true', 'limit': 10}
+2026-06-21 20:47:29,760 - INFO - API returned 0 jobs
+2026-06-21 20:47:29,761 - INFO - No jobs found for query
+2026-06-21 20:47:29,761 - INFO - 127.0.0.1 - - [21/Jun/2026 20:47:29] "POST /chat HTTP/1.1" 200 -
+2026-06-21 20:47:43,196 - INFO - User input: 'Saya mahasiswa teknik kimia. Saya ahli dalam Termodinamika. Tolong rekomendasikan tempat magang di I...'
+2026-06-21 20:47:44,646 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-06-21 20:47:52,936 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-06-21 20:47:52,936 - INFO - Extracted params: query='Termodinastis OR Research Assistant OR Process Engineer', city='None', remote=False
+2026-06-21 20:47:52,936 - INFO - Calling API with params: {'title_filter': 'Termodinastis OR Research Assistant OR Process Engineer', 'remote': 'false', 'include_ai': 'true', 'limit': 10}
+2026-06-21 20:47:55,960 - INFO - API returned 10 jobs
+2026-06-21 20:47:55,961 - INFO - Saved 10 jobs to session
+2026-06-21 20:48:25,404 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-06-21 20:48:25,405 - INFO - Generated 3 recommendations
+2026-06-21 20:48:25,414 - INFO - 127.0.0.1 - - [21/Jun/2026 20:48:25] "POST /chat HTTP/1.1" 200 -
+2026-06-22 09:21:24,718 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-06-22 09:21:24,719 - INFO - [33mPress CTRL+C to quit[0m
+2026-06-22 09:21:24,721 - INFO -  * Restarting with stat
+2026-06-22 09:21:25,629 - WARNING -  * Debugger is active!
+2026-06-22 09:21:25,631 - INFO -  * Debugger PIN: 143-850-252
+2026-06-22 09:22:15,473 - INFO - Session cleared, new session started
+2026-06-22 09:22:15,530 - INFO - 127.0.0.1 - - [22/Jun/2026 09:22:15] "GET / HTTP/1.1" 200 -
+2026-06-22 09:22:15,947 - INFO - 127.0.0.1 - - [22/Jun/2026 09:22:15] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-06-22 09:23:29,143 - INFO - Session cleared, new session started
+2026-06-22 09:23:29,144 - INFO - 127.0.0.1 - - [22/Jun/2026 09:23:29] "GET / HTTP/1.1" 200 -
+2026-06-22 09:23:30,040 - INFO - 127.0.0.1 - - [22/Jun/2026 09:23:30] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-06-22 10:06:24,216 - INFO - Session cleared, new session started
+2026-06-22 10:06:24,217 - INFO - 127.0.0.1 - - [22/Jun/2026 10:06:24] "GET / HTTP/1.1" 200 -
+2026-06-22 10:06:25,037 - INFO - 127.0.0.1 - - [22/Jun/2026 10:06:25] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-06-22 10:18:48,018 - INFO - User input: 'Saya mahasiswa teknik kimia. Saya ahli dalam termodinamika. Tolong rekomendasikan lokasi magang di I...'
+2026-06-22 10:19:02,085 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-06-22 10:19:12,472 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-06-22 10:19:12,473 - INFO - Extracted params: query='Termodinawt OR 'Teknisi Termodinamika' OR Research Assistant OR Process Engineer', city='None', remote=False
+2026-06-22 10:19:12,473 - INFO - Calling API with params: {'title_filter': "Termodinawt OR 'Teknisi Termodinamika' OR Research Assistant OR Process Engineer", 'remote': 'false', 'include_ai': 'true', 'limit': 10}
+2026-06-22 10:19:15,420 - INFO - API returned 10 jobs
+2026-06-22 10:19:15,422 - INFO - Saved 10 jobs to session
+2026-06-22 10:19:58,378 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-06-22 10:19:58,379 - INFO - Generated 5 recommendations
+2026-06-22 10:19:58,398 - INFO - 127.0.0.1 - - [22/Jun/2026 10:19:58] "POST /chat HTTP/1.1" 200 -
+2026-06-22 10:20:35,818 - INFO - Session cleared, new session started
+2026-06-22 10:20:35,824 - INFO - 127.0.0.1 - - [22/Jun/2026 10:20:35] "GET / HTTP/1.1" 200 -
+2026-06-22 10:20:49,090 - INFO - User input: 'Saya mahasiswa teknik kimia. Saya ahli dalam termodinamika. Tolong rekomendasikan lokasi magang di j...'
+2026-06-22 10:20:50,647 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-06-22 10:21:00,632 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-06-22 10:21:00,632 - INFO - Extracted params: query='Process Engineer OR Thermodynamicist OR Research and Development', city='Jakarta', remote=False
+2026-06-22 10:21:00,632 - INFO - Calling API with params: {'title_filter': 'Process Engineer OR Thermodynamicist OR Research and Development', 'location_filter': 'Jakarta', 'remote': 'false', 'include_ai': 'true', 'limit': 10}
+2026-06-22 10:21:02,071 - INFO - API returned 0 jobs
+2026-06-22 10:21:02,072 - INFO - No jobs found for query
+2026-06-22 10:21:02,073 - INFO - 127.0.0.1 - - [22/Jun/2026 10:21:02] "POST /chat HTTP/1.1" 200 -
+2026-06-22 10:21:51,286 - INFO - User input: 'Saya mahasiswa teknik kimia. Saya ahli dalam termodinamika. Tolong rekomendasikan lokasi magang di s...'
+2026-06-22 10:21:52,788 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-06-22 10:22:01,655 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-06-22 10:22:01,656 - INFO - Extracted params: query='Termodinamika OR R&D OR Pengembangan Produk', city='Surabaya', remote=False
+2026-06-22 10:22:01,656 - INFO - Calling API with params: {'title_filter': 'Termodinamika OR R&D OR Pengembangan Produk', 'location_filter': 'Surabaya', 'remote': 'false', 'include_ai': 'true', 'limit': 10}
+2026-06-22 10:22:03,010 - INFO - API returned 0 jobs
+2026-06-22 10:22:03,011 - INFO - No jobs found for query
+2026-06-22 10:22:03,012 - INFO - 127.0.0.1 - - [22/Jun/2026 10:22:03] "POST /chat HTTP/1.1" 200 -
+2026-06-22 10:46:12,890 - INFO - Session cleared, new session started
+2026-06-22 10:46:12,891 - INFO - 127.0.0.1 - - [22/Jun/2026 10:46:12] "GET / HTTP/1.1" 200 -
+2026-06-22 10:48:26,396 - INFO - User input: 'saya adalah mahasiswa informatika saya menguasai bidang ui/ux. berikan rekomendasi tempat magang di ...'
+2026-06-22 10:48:37,284 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-06-22 10:48:48,539 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-06-22 10:48:48,539 - INFO - Extracted params: query='UI/UX Designer OR UX Researcher OR Interaction Designer', city='Jakarta', remote=False
+2026-06-22 10:48:48,539 - INFO - Calling API with params: {'title_filter': 'UI/UX Designer OR UX Researcher OR Interaction Designer', 'location_filter': 'Jakarta', 'remote': 'false', 'include_ai': 'true', 'limit': 10}
+2026-06-22 10:48:50,745 - INFO - API returned 0 jobs
+2026-06-22 10:48:50,746 - INFO - No jobs found for query
+2026-06-22 10:48:50,746 - INFO - 127.0.0.1 - - [22/Jun/2026 10:48:50] "POST /chat HTTP/1.1" 200 -
+2026-06-22 10:50:15,149 - INFO - Session cleared, new session started
+2026-06-22 10:50:15,150 - INFO - 127.0.0.1 - - [22/Jun/2026 10:50:15] "GET / HTTP/1.1" 200 -
+2026-06-22 10:51:19,638 - INFO - User input: 'saya mahasiswa informatika saya  menguasai bidang front end.berikan saya rekomendasi tempat magang d...'
+2026-06-22 10:51:21,501 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-06-22 10:51:31,387 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-06-22 10:51:31,388 - INFO - Extracted params: query='Frontend Developer OR Web Developer OR UI/UX Designer', city='Jakarta', remote=False
+2026-06-22 10:51:31,388 - INFO - Calling API with params: {'title_filter': 'Frontend Developer OR Web Developer OR UI/UX Designer', 'location_filter': 'Jakarta', 'remote': 'false', 'include_ai': 'true', 'limit': 10}
+2026-06-22 10:51:32,805 - INFO - API returned 0 jobs
+2026-06-22 10:51:32,806 - INFO - No jobs found for query
+2026-06-22 10:51:32,806 - INFO - 127.0.0.1 - - [22/Jun/2026 10:51:32] "POST /chat HTTP/1.1" 200 -
+2026-06-22 10:53:18,912 - INFO - User input: 'saya mahasiswa informatika saya menguasai bidang front end.berikan saya rekomendasi tempat magang...'
+2026-06-22 10:53:20,788 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-06-22 10:53:30,921 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-06-22 10:53:30,921 - INFO - Extracted params: query='Front+End+Developer OR Web+Developer OR UI/UX+Designer', city='None', remote=False
+2026-06-22 10:53:30,921 - INFO - Calling API with params: {'title_filter': 'Front+End+Developer OR Web+Developer OR UI/UX+Designer', 'remote': 'false', 'include_ai': 'true', 'limit': 10}
+2026-06-22 10:53:33,618 - INFO - API returned 10 jobs
+2026-06-22 10:53:33,619 - INFO - Saved 10 jobs to session
+2026-06-22 10:54:03,660 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-06-22 10:54:03,661 - INFO - Generated 4 recommendations
+2026-06-22 10:54:03,664 - INFO - 127.0.0.1 - - [22/Jun/2026 10:54:03] "POST /chat HTTP/1.1" 200 -
+2026-06-22 22:31:02,379 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-06-22 22:31:02,380 - INFO - [33mPress CTRL+C to quit[0m
+2026-06-22 22:31:02,383 - INFO -  * Restarting with stat
+2026-06-22 22:31:03,306 - WARNING -  * Debugger is active!
+2026-06-22 22:31:03,309 - INFO -  * Debugger PIN: 104-030-835
+2026-06-22 22:31:58,290 - INFO - Session cleared, new session started
+2026-06-22 22:31:58,336 - INFO - 127.0.0.1 - - [22/Jun/2026 22:31:58] "GET / HTTP/1.1" 200 -
+2026-06-22 22:32:10,021 - INFO - User input: 'saya mahasiswa informatika saya menguasai bidang front end.berikan saya rekomendasi tempat magang di...'
+2026-06-22 22:32:24,536 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-06-22 22:32:35,339 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-06-22 22:32:35,340 - INFO - Extracted params: query='Front End Developer OR Web Developer OR UI/UX Designer', city='None', remote=False
+2026-06-22 22:32:35,340 - INFO - Calling API with params: {'title_filter': 'Front End Developer OR Web Developer OR UI/UX Designer', 'location_filter': 'Indonesia', 'remote': 'false', 'include_ai': 'true', 'limit': 10}
+2026-06-22 22:32:37,535 - INFO - API returned 0 jobs
+2026-06-22 22:32:37,536 - INFO - No jobs found for query
+2026-06-22 22:32:37,537 - INFO - 127.0.0.1 - - [22/Jun/2026 22:32:37] "POST /chat HTTP/1.1" 200 -
+2026-06-22 22:32:52,406 - INFO - Session cleared, new session started
+2026-06-22 22:32:52,406 - INFO - 127.0.0.1 - - [22/Jun/2026 22:32:52] "GET / HTTP/1.1" 200 -
+2026-06-22 22:33:12,434 - INFO - User input: 'saya adalah mahasiswa informatika saya menguasai bidang ui/ux. berikan rekomendasi tempat magang...'
+2026-06-22 22:33:14,874 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-06-22 22:33:27,295 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-06-22 22:33:27,296 - INFO - Extracted params: query='UI/UX Designer OR Product Designer OR User Experience Researcher', city='None', remote=False
+2026-06-22 22:33:27,296 - INFO - Calling API with params: {'title_filter': 'UI/UX Designer OR Product Designer OR User Experience Researcher', 'location_filter': 'Indonesia', 'remote': 'false', 'include_ai': 'true', 'limit': 10}
+2026-06-22 22:33:28,523 - INFO - API returned 0 jobs
+2026-06-22 22:33:28,524 - INFO - No jobs found for query
+2026-06-22 22:33:28,524 - INFO - 127.0.0.1 - - [22/Jun/2026 22:33:28] "POST /chat HTTP/1.1" 200 -
+2026-06-22 22:34:12,315 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-06-22 22:34:12,315 - INFO - [33mPress CTRL+C to quit[0m
+2026-06-22 22:34:12,317 - INFO -  * Restarting with stat
+2026-06-22 22:34:13,262 - WARNING -  * Debugger is active!
+2026-06-22 22:34:13,264 - INFO -  * Debugger PIN: 104-030-835
+2026-06-22 22:34:16,258 - INFO - Session cleared, new session started
+2026-06-22 22:34:16,262 - INFO - 127.0.0.1 - - [22/Jun/2026 22:34:16] "GET / HTTP/1.1" 200 -
+2026-06-22 22:35:06,118 - INFO - User input: 'Saya mahasiswa yang jago Microsoft Excel (Macro & VBA) dan Tableau. Rekomendasikan tempat magang di ...'
+2026-06-22 22:35:08,616 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-06-22 22:35:23,004 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-06-22 22:35:23,005 - INFO - Extracted params: query='Supply Chain OR Supply Chain Management OR Business Intelligence OR Business Analyst OR Data Analyst', city='None', remote=False
+2026-06-22 22:35:23,005 - INFO - Calling API with params: {'title_filter': 'Supply Chain OR Supply Chain Management OR Business Intelligence OR Business Analyst OR Data Analyst', 'remote': 'false', 'include_ai': 'true', 'limit': 10}
+2026-06-22 22:35:25,240 - INFO - API returned 10 jobs
+2026-06-22 22:35:25,242 - INFO - Saved 10 jobs to session
+2026-06-22 22:36:11,120 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-06-22 22:36:11,120 - INFO - Generated 5 recommendations
+2026-06-22 22:36:11,132 - INFO - 127.0.0.1 - - [22/Jun/2026 22:36:11] "POST /chat HTTP/1.1" 200 -
+2026-06-22 22:36:49,444 - INFO - User input: 'adakah yang remote dari lowongan yang kamu berikan?...'
+2026-06-22 22:36:51,653 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-06-22 22:36:51,656 - INFO - CHAT_BIASA: using 10 cached jobs
+2026-06-22 22:37:24,075 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-06-22 22:37:24,084 - INFO - 127.0.0.1 - - [22/Jun/2026 22:37:24] "POST /chat HTTP/1.1" 200 -
+2026-06-22 22:44:42,736 - INFO -  * Detected change in 'D:\\TA\\TA_Magang_AI\\app.py', reloading
+2026-06-22 22:44:42,837 - INFO -  * Restarting with stat
+2026-06-22 22:46:48,299 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-06-22 22:46:48,299 - INFO - [33mPress CTRL+C to quit[0m
+2026-06-22 22:46:48,301 - INFO -  * Restarting with stat
+2026-06-22 22:46:49,220 - WARNING -  * Debugger is active!
+2026-06-22 22:46:49,222 - INFO -  * Debugger PIN: 104-030-835
+2026-06-22 22:46:52,619 - INFO - Session cleared, new session started
+2026-06-22 22:46:52,623 - INFO - 127.0.0.1 - - [22/Jun/2026 22:46:52] "GET / HTTP/1.1" 200 -
+2026-06-22 22:46:58,711 - INFO - User input: 'Saya mahasiswa yang jago Microsoft Excel (Macro & VBA) dan Tableau. Rekomendasikan tempat magang di ...'
+2026-06-22 22:47:11,346 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-06-22 22:47:21,804 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-06-22 22:47:21,805 - INFO - Extracted params: query='Supply Chain OR Business Analyst OR Data Analyst', city='None', remote=False
+2026-06-22 22:47:21,805 - INFO - Calling API with params: {'title_filter': 'Supply Chain OR Business Analyst OR Data Analyst', 'location_filter': 'Indonesia', 'remote': 'false', 'include_ai': 'true', 'limit': 10}
+2026-06-22 22:47:24,081 - INFO - API returned 2 jobs
+2026-06-22 22:47:24,083 - INFO - Saved 2 jobs to session
+2026-06-22 22:47:36,293 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-06-22 22:47:36,293 - INFO - Generated 1 recommendations
+2026-06-22 22:47:36,299 - INFO - 127.0.0.1 - - [22/Jun/2026 22:47:36] "POST /chat HTTP/1.1" 200 -
+2026-06-22 22:50:14,729 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-06-22 22:50:14,729 - INFO - [33mPress CTRL+C to quit[0m
+2026-06-22 22:50:14,731 - INFO -  * Restarting with stat
+2026-06-22 22:50:15,666 - WARNING -  * Debugger is active!
+2026-06-22 22:50:15,668 - INFO -  * Debugger PIN: 104-030-835
+2026-06-22 22:50:18,388 - INFO - Session cleared, new session started
+2026-06-22 22:50:18,393 - INFO - 127.0.0.1 - - [22/Jun/2026 22:50:18] "GET / HTTP/1.1" 200 -
+2026-06-22 22:50:21,269 - INFO - User input: 'Saya mahasiswa yang jago Microsoft Excel (Macro & VBA) dan Tableau. Rekomendasikan tempat magang di ...'
+2026-06-22 22:50:21,695 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-06-22 22:50:28,091 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-06-22 22:50:28,092 - INFO - Extracted params: query='Supply Chain OR 'Logistik dan Pasokan' OR Business OR Operations OR Analis', location='Jakarta', remote=False
+2026-06-22 22:50:28,092 - INFO - Calling API with params: {'title_filter': "Supply Chain OR 'Logistik dan Pasokan' OR Business OR Operations OR Analis", 'location_filter': 'Jakarta', 'remote': 'false', 'include_ai': 'true', 'limit': 10}
+2026-06-22 22:50:29,756 - INFO - API returned 5 jobs
+2026-06-22 22:50:29,757 - INFO - Saved 5 jobs to session
+2026-06-22 22:50:54,163 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-06-22 22:50:54,163 - INFO - Generated 3 recommendations
+2026-06-22 22:50:54,175 - INFO - 127.0.0.1 - - [22/Jun/2026 22:50:54] "POST /chat HTTP/1.1" 200 -
+2026-06-22 22:51:24,962 - INFO - User input: 'Yang mana yang paling cocok untuk pemula?...'
+2026-06-22 22:51:27,127 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-06-22 22:51:27,131 - INFO - CHAT_BIASA: using 5 cached jobs
+2026-06-22 22:52:25,723 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-06-22 22:52:25,733 - INFO - 127.0.0.1 - - [22/Jun/2026 22:52:25] "POST /chat HTTP/1.1" 200 -
+2026-06-22 22:53:10,830 - INFO - User input: 'terima kasih...'
+2026-06-22 22:53:14,411 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-06-22 22:53:14,414 - INFO - CHAT_BIASA: using 5 cached jobs
+2026-06-22 22:54:02,277 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-06-22 22:54:02,280 - INFO - 127.0.0.1 - - [22/Jun/2026 22:54:02] "POST /chat HTTP/1.1" 200 -
+2026-06-22 22:56:29,040 - INFO -  * Detected change in 'D:\\TA\\TA_Magang_AI\\app.py', reloading
+2026-06-22 22:56:29,153 - INFO -  * Restarting with stat
+2026-06-22 22:56:30,182 - WARNING -  * Debugger is active!
+2026-06-22 22:56:30,184 - INFO -  * Debugger PIN: 104-030-835
+2026-06-22 22:57:38,903 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-06-22 22:57:38,903 - INFO - [33mPress CTRL+C to quit[0m
+2026-06-22 22:57:38,905 - INFO -  * Restarting with stat
+2026-06-22 22:57:39,917 - WARNING -  * Debugger is active!
+2026-06-22 22:57:39,920 - INFO -  * Debugger PIN: 104-030-835
+2026-06-22 22:57:42,218 - INFO - Session cleared, new session started
+2026-06-22 22:57:42,222 - INFO - 127.0.0.1 - - [22/Jun/2026 22:57:42] "GET / HTTP/1.1" 200 -
+2026-06-22 22:57:50,534 - INFO - User input: 'Cari magang Supply Chain/BA Jakarta...'
+2026-06-22 22:57:53,835 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-06-22 22:58:08,240 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-06-22 22:58:08,241 - INFO - Extracted params: query='Supply Chain OR 'Logistics Officer' OR Business Analyst OR Planning OR Procurement', location='Jakarta', remote=False
+2026-06-22 22:58:08,241 - INFO - Calling API with params: {'title_filter': "Supply Chain OR 'Logistics Officer' OR Business Analyst OR Planning OR Procurement", 'location_filter': 'Jakarta', 'remote': 'false', 'include_ai': 'true', 'limit': 10}
+2026-06-22 22:58:10,477 - INFO - API returned 0 jobs
+2026-06-22 22:58:10,478 - INFO - No jobs found for query
+2026-06-22 22:58:10,479 - INFO - 127.0.0.1 - - [22/Jun/2026 22:58:10] "POST /chat HTTP/1.1" 200 -
+2026-06-22 22:58:18,551 - INFO - Session cleared, new session started
+2026-06-22 22:58:18,552 - INFO - 127.0.0.1 - - [22/Jun/2026 22:58:18] "GET / HTTP/1.1" 200 -
+2026-06-22 22:58:25,245 - INFO - User input: 'Saya mahasiswa yang jago Microsoft Excel (Macro & VBA) dan Tableau. Rekomendasikan tempat magang di ...'
+2026-06-22 22:58:25,722 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-06-22 22:58:33,587 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-06-22 22:58:33,588 - INFO - Extracted params: query='Supply Chain OR 'Logistics Specialist' OR Business Analyst OR Operations Analyst', location='Jakarta', remote=False
+2026-06-22 22:58:33,588 - INFO - Calling API with params: {'title_filter': "Supply Chain OR 'Logistics Specialist' OR Business Analyst OR Operations Analyst", 'location_filter': 'Jakarta', 'remote': 'false', 'include_ai': 'true', 'limit': 10}
+2026-06-22 22:58:34,805 - INFO - API returned 0 jobs
+2026-06-22 22:58:34,806 - INFO - No jobs found for query
+2026-06-22 22:58:34,806 - INFO - 127.0.0.1 - - [22/Jun/2026 22:58:34] "POST /chat HTTP/1.1" 200 -
+2026-06-22 22:58:56,703 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-06-22 22:58:56,703 - INFO - [33mPress CTRL+C to quit[0m
+2026-06-22 22:58:56,705 - INFO -  * Restarting with stat
+2026-06-22 22:58:57,669 - WARNING -  * Debugger is active!
+2026-06-22 22:58:57,671 - INFO -  * Debugger PIN: 104-030-835
+2026-06-22 22:58:58,540 - INFO - Session cleared, new session started
+2026-06-22 22:58:58,546 - INFO - 127.0.0.1 - - [22/Jun/2026 22:58:58] "GET / HTTP/1.1" 200 -
+2026-06-22 22:59:00,410 - INFO - User input: 'Saya mahasiswa yang jago Microsoft Excel (Macro & VBA) dan Tableau. Rekomendasikan tempat magang di ...'
+2026-06-22 22:59:00,867 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-06-22 22:59:11,346 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-06-22 22:59:11,346 - INFO - Extracted params: query='Supply Chain OR 'Logistik dan Pasokan' OR Business Analysis OR Analisis Bisnis OR Data Science', location='Jakarta', remote=False
+2026-06-22 22:59:11,346 - INFO - Calling API with params: {'title_filter': "Supply Chain OR 'Logistik dan Pasokan' OR Business Analysis OR Analisis Bisnis OR Data Science", 'location_filter': 'Jakarta', 'remote': 'false', 'include_ai': 'true', 'limit': 10}
+2026-06-22 22:59:12,855 - INFO - API returned 0 jobs
+2026-06-22 22:59:12,857 - INFO - No jobs found for query
+2026-06-22 22:59:12,857 - INFO - 127.0.0.1 - - [22/Jun/2026 22:59:12] "POST /chat HTTP/1.1" 200 -
+2026-06-22 22:59:19,141 - INFO - Session cleared, new session started
+2026-06-22 22:59:19,142 - INFO - 127.0.0.1 - - [22/Jun/2026 22:59:19] "GET / HTTP/1.1" 200 -
+2026-06-22 22:59:29,036 - INFO - User input: 'Saya mahasiswa yang jago Microsoft Excel (Macro & VBA) dan Tableau. Rekomendasikan tempat magang di ...'
+2026-06-22 22:59:31,122 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-06-22 22:59:43,007 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-06-22 22:59:43,008 - INFO - Extracted params: query='Data Analyst OR Business Analyst OR Excel Specialist', location='Jakarta', remote=False
+2026-06-22 22:59:43,008 - INFO - Calling API with params: {'title_filter': 'Data Analyst OR Business Analyst OR Excel Specialist', 'location_filter': 'Jakarta', 'remote': 'false', 'include_ai': 'true', 'limit': 10}
+2026-06-22 22:59:44,201 - INFO - API returned 1 jobs
+2026-06-22 22:59:44,202 - INFO - Saved 1 jobs to session
+2026-06-22 22:59:55,828 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-06-22 22:59:55,829 - INFO - Generated 1 recommendations
+2026-06-22 22:59:55,834 - INFO - 127.0.0.1 - - [22/Jun/2026 22:59:55] "POST /chat HTTP/1.1" 200 -
+2026-06-22 23:00:21,689 - INFO - User input: 'apakah ini cocok untuk pemula...'
+2026-06-22 23:00:23,910 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-06-22 23:00:23,916 - INFO -    Total jobs in session: 1
+2026-06-22 23:00:23,916 - INFO -    Job 0: title=Data Analyst Intern, org=TP
+2026-06-22 23:00:58,354 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-06-22 23:00:58,363 - INFO - 127.0.0.1 - - [22/Jun/2026 23:00:58] "POST /chat HTTP/1.1" 200 -
+2026-06-22 23:01:28,405 - INFO - User input: 'terima kasih...'
+2026-06-22 23:01:28,889 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-06-22 23:01:28,894 - INFO -    Total jobs in session: 1
+2026-06-22 23:01:28,895 - INFO -    Job 0: title=Data Analyst Intern, org=TP
+2026-06-22 23:01:47,244 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-06-22 23:01:47,247 - INFO - 127.0.0.1 - - [22/Jun/2026 23:01:47] "POST /chat HTTP/1.1" 200 -
+2026-06-22 23:05:26,729 - INFO -  * Detected change in 'D:\\TA\\TA_Magang_AI\\app.py', reloading
+2026-06-22 23:05:26,823 - INFO -  * Restarting with stat
+2026-06-22 23:05:27,805 - WARNING -  * Debugger is active!
+2026-06-22 23:05:27,807 - INFO -  * Debugger PIN: 104-030-835
+2026-06-23 08:37:46,473 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-06-23 08:37:46,474 - INFO - [33mPress CTRL+C to quit[0m
+2026-06-23 08:37:46,475 - INFO -  * Restarting with stat
+2026-06-23 08:37:47,324 - WARNING -  * Debugger is active!
+2026-06-23 08:37:47,326 - INFO -  * Debugger PIN: 130-208-095
+2026-06-23 08:38:04,113 - INFO - Session cleared, new session started
+2026-06-23 08:38:04,141 - INFO - 127.0.0.1 - - [23/Jun/2026 08:38:04] "GET / HTTP/1.1" 200 -
+2026-06-23 08:38:04,515 - INFO - 127.0.0.1 - - [23/Jun/2026 08:38:04] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-06-23 08:38:08,944 - INFO - User input: 'test...'
+2026-06-23 08:38:19,675 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-06-23 08:38:19,756 - INFO -    Total jobs in session: 0
+2026-06-23 08:38:25,652 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-06-23 08:38:25,653 - INFO - 127.0.0.1 - - [23/Jun/2026 08:38:25] "POST /chat HTTP/1.1" 200 -
+2026-06-23 08:38:52,297 - INFO - Session cleared, new session started
+2026-06-23 08:38:52,297 - INFO - 127.0.0.1 - - [23/Jun/2026 08:38:52] "GET / HTTP/1.1" 200 -
+2026-06-23 10:47:40,297 - INFO - 127.0.0.1 - - [23/Jun/2026 10:47:40] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-06-23 10:51:24,930 - INFO - Session cleared, new session started
+2026-06-23 10:51:24,931 - INFO - 127.0.0.1 - - [23/Jun/2026 10:51:24] "GET / HTTP/1.1" 200 -
+2026-06-23 10:52:00,002 - INFO - User input: 'Test...'
+2026-06-23 10:52:11,945 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-06-23 10:52:11,951 - INFO -    Total jobs in session: 0
+2026-06-23 10:52:17,788 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-06-23 10:52:17,788 - INFO - 127.0.0.1 - - [23/Jun/2026 10:52:17] "POST /chat HTTP/1.1" 200 -
+2026-06-23 10:52:30,881 - INFO - Session cleared, new session started
+2026-06-23 10:52:30,882 - INFO - 127.0.0.1 - - [23/Jun/2026 10:52:30] "GET / HTTP/1.1" 200 -
+2026-06-23 10:56:17,019 - INFO - Session cleared, new session started
+2026-06-23 10:56:17,019 - INFO - 127.0.0.1 - - [23/Jun/2026 10:56:17] "GET / HTTP/1.1" 200 -
+2026-06-23 10:56:37,289 - INFO - User input: 'Carikan rekomendasi kan tempat magang bidang data analis...'
+2026-06-23 10:56:39,137 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-06-23 10:56:48,921 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-06-23 10:56:48,922 - INFO - Extracted params: query='Data Analyst OR Business Analyst OR Data Science', location='None', remote=False
+2026-06-23 10:56:48,922 - INFO - Calling API with params: {'title_filter': 'Data Analyst OR Business Analyst OR Data Science', 'remote': 'false', 'include_ai': 'true', 'limit': 10}
+2026-06-23 10:56:51,749 - INFO - API returned 10 jobs
+2026-06-23 10:56:51,751 - INFO - Saved 10 jobs to session
+2026-06-23 10:57:19,255 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-06-23 10:57:19,256 - INFO - Generated 4 recommendations
+2026-06-23 10:57:19,265 - INFO - 127.0.0.1 - - [23/Jun/2026 10:57:19] "POST /chat HTTP/1.1" 200 -
+2026-06-23 10:57:40,455 - INFO - Session cleared, new session started
+2026-06-23 10:57:40,461 - INFO - 127.0.0.1 - - [23/Jun/2026 10:57:40] "GET / HTTP/1.1" 200 -
+2026-06-23 10:58:28,823 - INFO - User input: 'Saya pinter di ui/ux, bisakah kamu Carikan magang di Singapore dan wfh kalo bisa...'
+2026-06-23 10:58:30,708 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-06-23 10:58:41,122 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-06-23 10:58:41,122 - INFO - Extracted params: query='"UI/UX Designer" OR "Interaction Designer" OR "User Experience Specialist"', location='Singapore', remote=True
+2026-06-23 10:58:41,123 - INFO - Calling API with params: {'title_filter': '"UI/UX Designer" OR "Interaction Designer" OR "User Experience Specialist"', 'location_filter': 'Singapore', 'remote': 'true', 'include_ai': 'true', 'limit': 10}
+2026-06-23 10:58:43,523 - INFO - API returned 0 jobs
+2026-06-23 10:58:43,524 - INFO - No jobs found for query
+2026-06-23 10:58:43,524 - INFO - 127.0.0.1 - - [23/Jun/2026 10:58:43] "POST /chat HTTP/1.1" 200 -
+2026-06-23 10:59:27,710 - INFO - Session cleared, new session started
+2026-06-23 10:59:27,711 - INFO - 127.0.0.1 - - [23/Jun/2026 10:59:27] "GET / HTTP/1.1" 200 -
+2026-06-23 10:59:48,356 - INFO - User input: 'Saya jago ui/ux bisakah caeikan tempat magang yang cocok dengan saya...'
+2026-06-23 10:59:50,200 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-06-23 10:59:58,808 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-06-23 10:59:58,808 - INFO - Extracted params: query='UI/UX Designer OR UX Designer OR UI Designer', location='None', remote=False
+2026-06-23 10:59:58,808 - INFO - Calling API with params: {'title_filter': 'UI/UX Designer OR UX Designer OR UI Designer', 'remote': 'false', 'include_ai': 'true', 'limit': 10}
+2026-06-23 11:00:00,522 - INFO - API returned 10 jobs
+2026-06-23 11:00:00,523 - INFO - Saved 10 jobs to session
+2026-06-23 11:00:35,760 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-06-23 11:00:35,760 - INFO - Generated 4 recommendations
+2026-06-23 11:00:35,764 - INFO - 127.0.0.1 - - [23/Jun/2026 11:00:35] "POST /chat HTTP/1.1" 200 -
+2026-06-23 11:02:27,749 - INFO - Session cleared, new session started
+2026-06-23 11:02:27,750 - INFO - 127.0.0.1 - - [23/Jun/2026 11:02:27] "GET / HTTP/1.1" 200 -
+2026-06-23 11:02:28,501 - INFO - 127.0.0.1 - - [23/Jun/2026 11:02:28] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-06-23 11:03:31,644 - INFO - User input: 'saya mahasiswa informatika yang menguasai bidang front end. berikan saya rekomendasi tempat magang...'
+2026-06-23 11:03:33,507 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-06-23 11:03:44,429 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-06-23 11:03:44,430 - INFO - Extracted params: query='Front End Developer OR Web Developer OR UI/UX Designer', location='Indonesia', remote=False
+2026-06-23 11:03:44,430 - INFO - Calling API with params: {'title_filter': 'Front End Developer OR Web Developer OR UI/UX Designer', 'location_filter': 'Indonesia', 'remote': 'false', 'include_ai': 'true', 'limit': 10}
+2026-06-23 11:03:45,838 - INFO - API returned 0 jobs
+2026-06-23 11:03:45,839 - INFO - No jobs found for query
+2026-06-23 11:03:45,839 - INFO - 127.0.0.1 - - [23/Jun/2026 11:03:45] "POST /chat HTTP/1.1" 200 -
+2026-06-23 11:04:06,867 - INFO - Session cleared, new session started
+2026-06-23 11:04:06,868 - INFO - 127.0.0.1 - - [23/Jun/2026 11:04:06] "GET / HTTP/1.1" 200 -
+2026-06-23 11:05:18,142 - INFO - User input: 'saya mahasiswa informatika yang menguasai bidang designer ui/ux . berikan rekomendasi tempat magang...'
+2026-06-23 11:05:19,803 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-06-23 11:05:28,559 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-06-23 11:05:28,559 - INFO - Extracted params: query='UI/UX Designer OR User Experience Designer OR User Interface Designer', location='None', remote=False
+2026-06-23 11:05:28,559 - INFO - Calling API with params: {'title_filter': 'UI/UX Designer OR User Experience Designer OR User Interface Designer', 'remote': 'false', 'include_ai': 'true', 'limit': 10}
+2026-06-23 11:05:30,149 - INFO - API returned 8 jobs
+2026-06-23 11:05:30,150 - INFO - Saved 8 jobs to session
+2026-06-23 11:06:05,876 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-06-23 11:06:05,877 - INFO - Generated 5 recommendations
+2026-06-23 11:06:05,887 - INFO - 127.0.0.1 - - [23/Jun/2026 11:06:05] "POST /chat HTTP/1.1" 200 -
+2026-07-01 19:59:37,673 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-07-01 19:59:37,673 - INFO - [33mPress CTRL+C to quit[0m
+2026-07-01 19:59:37,675 - INFO -  * Restarting with stat
+2026-07-01 19:59:38,563 - WARNING -  * Debugger is active!
+2026-07-01 19:59:38,566 - INFO -  * Debugger PIN: 586-283-951
+2026-07-01 19:59:41,438 - INFO - Session cleared, new session started
+2026-07-01 19:59:41,470 - INFO - 127.0.0.1 - - [01/Jul/2026 19:59:41] "GET / HTTP/1.1" 200 -
+2026-07-01 20:01:08,524 - INFO - User input: 'Saya mahasiswa yang jago Microsoft Excel (Macro & VBA) dan Tableau. Rekomendasikan tempat magang di ...'
+2026-07-01 20:02:10,923 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-01 20:02:21,518 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-01 20:02:21,518 - INFO - Extracted params: query='Business Analyst OR Supply Chain Analyst OR Data Analyst', location='Jakarta', remote=False
+2026-07-01 20:02:21,519 - INFO - Calling API with params: {'title_filter': 'Business Analyst OR Supply Chain Analyst OR Data Analyst', 'location_filter': 'Jakarta', 'remote': 'false', 'include_ai': 'true', 'limit': 10}
+2026-07-01 20:02:24,507 - INFO - API returned 1 jobs
+2026-07-01 20:02:24,508 - INFO - Saved 1 jobs to session
+2026-07-01 20:02:34,345 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-01 20:02:34,345 - INFO - Generated 1 recommendations
+2026-07-01 20:02:34,355 - INFO - 127.0.0.1 - - [01/Jul/2026 20:02:34] "POST /chat HTTP/1.1" 200 -
+2026-07-01 20:03:42,805 - INFO - User input: 'biasanya kejaan nya ngapain ya?...'
+2026-07-01 20:03:44,579 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-01 20:03:44,585 - INFO -    Total jobs in session: 1
+2026-07-01 20:03:44,585 - INFO -    Job 0: title=Data Analyst Intern (Digital Marketing), org=AnyMind Group
+2026-07-01 20:04:30,718 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-01 20:04:30,727 - INFO - 127.0.0.1 - - [01/Jul/2026 20:04:30] "POST /chat HTTP/1.1" 200 -
+2026-07-01 20:05:15,578 - INFO - Session cleared, new session started
+2026-07-01 20:05:15,579 - INFO - 127.0.0.1 - - [01/Jul/2026 20:05:15] "GET / HTTP/1.1" 200 -

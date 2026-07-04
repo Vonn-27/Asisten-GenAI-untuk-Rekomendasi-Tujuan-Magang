@@ -1,0 +1,342 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AI Internship Search</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <style>
+      #scroll-area {
+        flex: 1;
+        overflow-y: auto;
+        scroll-behavior: smooth;
+        width: 100%;
+      }
+
+      #scroll-area::-webkit-scrollbar {
+        width: 6px;
+      }
+      #scroll-area::-webkit-scrollbar-thumb {
+        background: #e5e7eb;
+        border-radius: 10px;
+      }
+
+      .chat-container {
+        width: 100%;
+        max-width: 48rem;
+        margin: 0 auto;
+        padding: 20px 0;
+      }
+
+      .chat-link {
+        color: #2563eb;
+        text-decoration: underline;
+      }
+
+      #user-input {
+        min-height: 56px;
+        max-height: 150px;
+        overflow-y: hidden;
+      }
+
+      .delay-100 {
+        animation-delay: 0.1s;
+      }
+      .delay-200 {
+        animation-delay: 0.2s;
+      }
+    </style>
+  </head>
+  <body
+    class="bg-white text-gray-800 font-sans h-screen flex flex-col overflow-hidden"
+  >
+    <header class="p-4 flex justify-end shrink-0">
+      <button
+        onclick="resetChat()"
+        class="flex items-center gap-2 border border-gray-300 rounded-lg px-4 py-2 text-sm font-medium text-gray-700 hover:bg-black hover:text-white hover:border-black transition-colors duration-200"
+      >
+        <i class="fa-regular fa-pen-to-square"></i>
+        <span>Percakapan Baru</span>
+      </button>
+    </header>
+
+    <main class="flex-1 flex flex-col overflow-hidden relative">
+      <div id="scroll-area">
+        <div
+          id="dynamic-content-wrapper"
+          class="w-full h-full flex flex-col items-center justify-center px-4 pb-32"
+        >
+          <div id="welcome-section" class="text-center mb-8 shrink-0">
+            <div
+              class="w-16 h-16 bg-black text-white rounded-2xl mx-auto mb-6 flex items-center justify-center shadow-lg transform hover:scale-105 transition-transform duration-300"
+            >
+              <i
+                class="fa-solid fa-robot text-3xl animate-bounce"
+                style="animation-duration: 3s"
+              ></i>
+            </div>
+            <h1 class="text-3xl font-semibold mb-2">Selamat Datang!</h1>
+            <p class="text-gray-500 text-lg">
+              Aku bisa membantumu mencari tempat magang yang cocok untukmu
+            </p>
+          </div>
+
+          <div id="chat-display" class="chat-container hidden space-y-6"></div>
+
+          <div id="input-initial-wrapper" class="w-full max-w-3xl">
+            <div id="input-area" class="w-full pb-8">
+              <div
+                class="bg-gray-100 rounded-3xl p-4 shadow-sm border border-gray-200"
+              >
+                <textarea
+                  id="user-input"
+                  rows="2"
+                  oninput="autoResize(this)"
+                  onkeydown="handleKeyPress(event)"
+                  class="w-full bg-transparent border-none focus:ring-0 focus:outline-none resize-none text-gray-700 placeholder-gray-500"
+                  placeholder="Butuh bantuan tentang magang?"
+                ></textarea>
+
+                <div class="flex justify-end items-center mt-2 gap-2">
+                  <button
+                    onclick="saveInteraction()"
+                    title="Simpan PDF"
+                    class="text-gray-400 hover:text-red-500 p-2"
+                  >
+                    <i class="fa-regular fa-file-pdf text-lg"></i>
+                  </button>
+                  <button
+                    onclick="sendMessage()"
+                    class="bg-black text-white rounded-full w-10 h-10 flex items-center justify-center hover:bg-gray-800 transition"
+                  >
+                    <i class="fa-solid fa-arrow-up"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div id="scroll-spacer" class="h-10 hidden shrink-0"></div>
+        </div>
+      </div>
+
+      <div
+        id="sticky-input-container"
+        class="w-full flex justify-center px-4 bg-white shrink-0 hidden"
+      >
+        <div class="w-full max-w-3xl"></div>
+      </div>
+    </main>
+
+    <script>
+      let chatHistory = [];
+
+      function formatMessage(text) {
+        let cleanText = text.replace(/\[(https?:\/\/[^\]]+)\]/g, "$1");
+        const urlRegex = /(https?:\/\/[^\s()<>\[\]]+)/g;
+
+        return cleanText
+          .replace(urlRegex, (url) => {
+            const cleanUrl = url.replace(/[\.,\?!\)\]]+$/, "");
+            return `<a href="${cleanUrl}" target="_blank" class="chat-link">${cleanUrl}</a>`;
+          })
+          .replace(/\*\*(.*?)\*\*/g, "<strong>$1</strong>");
+      }
+
+      function handleKeyPress(event) {
+        if (event.key === "Enter" && !event.shiftKey) {
+          event.preventDefault();
+          sendMessage();
+        }
+      }
+
+      function autoResize(textarea) {
+        textarea.style.height = "auto";
+        textarea.style.height = textarea.scrollHeight + "px";
+        textarea.style.overflowY =
+          textarea.scrollHeight > 150 ? "auto" : "hidden";
+      }
+
+      async function sendMessage() {
+        const inputField = document.getElementById("user-input");
+        const message = inputField.value.trim();
+
+        if (message) {
+          const welcome = document.getElementById("welcome-section");
+          const chatDisplay = document.getElementById("chat-display");
+          const dynamicWrapper = document.getElementById(
+            "dynamic-content-wrapper",
+          );
+          const spacer = document.getElementById("scroll-spacer");
+          const inputArea = document.getElementById("input-area");
+          const stickyContainer = document.getElementById(
+            "sticky-input-container",
+          );
+          const stickyTarget = stickyContainer.querySelector("div");
+
+          if (!welcome.classList.contains("hidden")) {
+            welcome.classList.add("hidden");
+            chatDisplay.classList.remove("hidden");
+            spacer.classList.remove("hidden");
+            dynamicWrapper.classList.remove(
+              "justify-center",
+              "h-full",
+              "pb-32",
+            );
+            stickyContainer.classList.remove("hidden");
+            stickyTarget.appendChild(inputArea);
+          }
+
+          chatHistory.push({ role: "user", content: message });
+          renderChat();
+
+          inputField.value = "";
+          inputField.style.height = "auto";
+
+          const loadingIndex = chatHistory.length;
+          chatHistory.push({
+            role: "ai",
+            content: "loading_state",
+          });
+          renderChat();
+
+          try {
+            const response = await fetch("/chat", {
+              method: "POST",
+              headers: { "Content-Type": "application/json" },
+              body: JSON.stringify({
+                message: message,
+                history: chatHistory.slice(0, -1),
+              }),
+            });
+            const data = await response.json();
+            chatHistory[loadingIndex].content = data.reply;
+            renderChat();
+          } catch (error) {
+            chatHistory[loadingIndex].content =
+              "Maaf, terjadi kesalahan saat menghubungi server.";
+            renderChat();
+          }
+        }
+      }
+
+      function renderChat() {
+        const display = document.getElementById("chat-display");
+        const scrollArea = document.getElementById("scroll-area");
+
+        display.innerHTML = chatHistory
+          .map((msg) => {
+            let messageContent = "";
+            if (msg.content === "loading_state") {
+              messageContent = `
+                  <div class="flex items-center gap-1 py-1 px-2">
+                    <div class="w-2 h-2 bg-gray-500 rounded-full animate-bounce"></div>
+                    <div class="w-2 h-2 bg-gray-500 rounded-full animate-bounce delay-100"></div>
+                    <div class="w-2 h-2 bg-gray-500 rounded-full animate-bounce delay-200"></div>
+                  </div>
+                `;
+            } else {
+              messageContent = `<p style="white-space: pre-line;" class="text-sm leading-relaxed">${formatMessage(msg.content)}</p>`;
+            }
+
+            let roleLabel = msg.role === "user" ? "Anda" : "AI Assistant";
+
+            return `
+                <div class="flex ${msg.role === "user" ? "justify-end" : "justify-start"}">
+                    <div class="${msg.role === "user" ? "bg-gray-200 text-gray-800" : "bg-white text-gray-800 border border-gray-100 shadow-sm"} rounded-2xl px-4 py-2 max-w-[85%]">
+                        <p class="text-xs font-bold mb-1 opacity-50">${roleLabel}</p>
+                        ${messageContent}
+                    </div>
+                </div>
+              `;
+          })
+          .join("");
+
+        setTimeout(() => {
+          scrollArea.scrollTop = scrollArea.scrollHeight;
+        }, 50);
+      }
+
+      function saveInteraction() {
+        if (chatHistory.length === 0)
+          return alert("Belum ada percakapan untuk disimpan.");
+
+        const { jsPDF } = window.jspdf;
+        const doc = new jsPDF();
+
+        let y = 20;
+        const margin = 15;
+        const pageWidth = 180;
+        const lineHeight = 7;
+
+        doc.setFont("helvetica", "bold");
+        doc.setFontSize(16);
+        doc.text("Laporan Rekomendasi Magang", margin, y);
+        y += 12;
+
+        chatHistory.forEach((msg) => {
+          if (msg.content === "loading_state") return;
+          let cleanContent = msg.content
+            .replace(/\*\*/g, "")
+            .replace(/[^\x00-\x7F]/g, "")
+            .replace(/\n\s*\n/g, "\n");
+
+          const roleLabel = msg.role === "user" ? "ANDA:" : "AI ASSISTANT:";
+
+          doc.setFont("helvetica", "bold");
+          doc.setFontSize(10);
+          doc.text(roleLabel, margin, y);
+          y += 6;
+
+          doc.setFont("helvetica", "normal");
+          const lines = doc.splitTextToSize(cleanContent, pageWidth);
+
+          if (y + lines.length * lineHeight > 275) {
+            doc.addPage();
+            y = 20;
+          }
+
+          doc.text(lines, margin, y);
+          y += lines.length * lineHeight + 8;
+        });
+
+        doc.save("hasil_magang.pdf");
+      }
+
+      function resetChat() {
+        chatHistory = [];
+        const welcome = document.getElementById("welcome-section");
+        const chatDisplay = document.getElementById("chat-display");
+        const dynamicWrapper = document.getElementById(
+          "dynamic-content-wrapper",
+        );
+        const spacer = document.getElementById("scroll-spacer");
+        const inputArea = document.getElementById("input-area");
+        const initialWrapper = document.getElementById("input-initial-wrapper");
+        const stickyContainer = document.getElementById(
+          "sticky-input-container",
+        );
+        const inputField = document.getElementById("user-input");
+
+        welcome.classList.remove("hidden");
+        chatDisplay.classList.add("hidden");
+        spacer.classList.add("hidden");
+        chatDisplay.innerHTML = "";
+
+        dynamicWrapper.classList.add("justify-center", "h-full", "pb-32");
+        stickyContainer.classList.add("hidden");
+        initialWrapper.appendChild(inputArea);
+
+        inputField.value = "";
+        inputField.style.height = "auto";
+
+        fetch("/");
+      }
+    </script>
+  </body>
+</html>
